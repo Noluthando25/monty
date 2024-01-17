@@ -14,7 +14,11 @@ void pall(stack_t **stack, unsigned int num)
   stack_t *tmp = *stack;
   (void)num;
 
-  while (tmp != NULL)
+  tmp = *stack;
+  if (tmp == NULL)
+	  return;
+
+  while (tmp)
   {
     printf("%d\n", tmp->n);
     tmp = tmp->next;
