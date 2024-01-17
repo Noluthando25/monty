@@ -7,6 +7,7 @@
  * pint - prints the value at the top of the stack
  * @stack: first integer
  * @line_number: second integer
+ * Return: 0
  */
 
 void pint(stack_t **stack, unsigned int line_number)

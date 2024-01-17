@@ -1,10 +1,12 @@
 #include "monty.h"
+#include <stdlib.h>
 
 /**
- * nop -  doesn’t do anything.
+ * main -  doesn’t do anything.
  * Return: 0
  */
 
-void nop(void)
+int main(void)
 {
+	return (0);
 }
