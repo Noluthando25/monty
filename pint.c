@@ -1,8 +1,11 @@
 #include "monty.h"
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * pint - removes the top element of the stack.
- * @stack: integer
+ * pint - prints the value at the top of the stack
+ * @stack: first integer
  * @line_number: second integer
  */
 
