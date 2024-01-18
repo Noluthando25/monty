@@ -1,14 +1,14 @@
 #include "monty.h"
 
 /**
- * main -  doesn’t do anything.
- * Return: 0
+ * main - entry point of the program
+ * Return: 0 on successful execution
  */
-
 int main(void)
 {
-	/**
-	 * do nothing
-	 */
-	return(0);
+    /** ... code to manipulate the stack ...
+     */
+
+    pint();
+    return (0);
 }
