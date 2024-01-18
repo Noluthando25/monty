@@ -4,11 +4,19 @@
  * main - entry point of the program
  * Return: 0 on successful execution
  */
+
+void nop(void)
+{
+    /**
+     * This function does nothing
+     */
+}
+
 int main(void)
 {
-    /** ... code to manipulate the stack ...
+    /**
+     * Calling the nop function
      */
-
-    pint();
-    return (0);
+	nop();
+	return (0);
 }
